@@ -43,6 +43,7 @@ public class Array_leftRotate {
 	    static void leftRotate(int[] arr, int n, int r) {    
 	        
 	        reverse(arr,0,r-1);
+	        
 	        reverse(arr,r,n-1);
 	        reverse(arr,0,n-1);
 	    }

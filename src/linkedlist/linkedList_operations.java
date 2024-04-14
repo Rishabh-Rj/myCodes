@@ -1,30 +1,8 @@
-package roughWork;
-
-//import java.util.Scanner;
-
-//public class test{
-//	public static void main(String[] args) {
-//		
-//		System.out.println("Hi, Please enter a string: ");
-//		Scanner sc= new Scanner(System.in);
-//		String str= sc.nextLine();
-//		String str2=sc.next();
-//		System.out.println("Str1: " + str);
-//		System.out.println("Str2: " + str2);
-//		
-//		Scanner sc2= new Scanner(str);
-//		String str3=sc2.next();
-//		System.out.println("Str3: " + str3);
-//		
-//		sc.close();
-//	
-//	}
-//}
-
+package linkedlist;
 
 import java.util.Scanner;
 
-public class test {
+public class linkedList_operations {
     static class Node {
         int data;
         Node link;
@@ -207,6 +185,7 @@ public class test {
             System.out.print("\nDo you want to continue [y/n]: ");
             ch = scanner.next().charAt(0);
         } while (ch == 'Y' || ch == 'y');
+        
         
         scanner.close();
     }
