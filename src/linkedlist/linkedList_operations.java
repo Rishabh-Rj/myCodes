@@ -131,7 +131,7 @@ public class linkedList_operations {
             System.out.println("8. Display Linked List");
             System.out.print("Enter Choice: ");
             int choice = scanner.nextInt();
-
+            
             switch (choice) {
                 case 1:
                     System.out.print("\nNumber of elements to be Inserted: ");
@@ -188,5 +188,6 @@ public class linkedList_operations {
         
         
         scanner.close();
+       
     }
 }
