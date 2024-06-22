@@ -1,10 +1,15 @@
 package roughWork;
 
-import java.util.Scanner;
-class test{ 
-public static void main(String[] args){
-	System.out.println("Hi, enter a number man");
-	Scanner sc = new Scanner(System.in);
-	int n= sc.nextInt();
-	System.out.println("Your number entered is "+n);
-}}
+import java.lang.reflect.Array;
+import java.util.*;
+
+public class test{
+    public static void main(String[] args) {
+
+    int arr[]= new int[]{4,1,44,2};
+    Arrays.sort(arr);
+        System.out.println("Max element: "+ arr[arr.length-1]);
+
+
+    }
+}
